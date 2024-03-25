@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text-style</title>
+    <style>
+        p {
+            color: red;
+            font-size: 100px;
+        }
+        div {
+            color: #654321;
+            font-size : 40px;
+            line-height: 150%;
+            /* line-height : 30px; */
+        }
+        h1 {
+            white-space: nowrap;
+            font-size: 12px;
+            letter-spacing: 0px;
+        }
+        h2 {
+            white-space: normal;
+            font-size: 20px;
+            letter-spacing: -2px;
+        }
+        h6 {
+            font-size: 32px;
+            letter-spacing: 8px;
+        }
+        .box {
+            display: flex;
+        }
+        .a {
+            background: red;
+        }
+        .b {
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <p>붉은 색의 색깔색깔 </p>
+    <div>div의 색은 #654321입니다.</div>
+    <h1>원래는 가장 큰</h1>
+    <h6>원래는 가장 작은</h6>
+    
+    <div class="box">
+        <!-- 한글 가 -->
+        <div class="a">가</div>
+        <!-- 영어 가-->
+        <div class="b">g</div>
+    </div>
+</body>
+</html>
